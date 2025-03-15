@@ -44,6 +44,24 @@ h2 {
   justify-content: center;
 }
 
+.article__image img {
+  max-width: 300px;
+  min-width: 250px;
+  flex-shrink: 1;
+}
+
+.article__text {
+  flex-basis: calc((100% - 250px)/2);
+  flex-shrink: 2;
+  flex-grow: 2;
+}
+
+/* .article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .article__image img{
   width: 100%;
   max-width: 300px;
@@ -58,4 +76,4 @@ h2 {
   .article__text {
     flex-basis: 50%;
   }
-}
+} */
